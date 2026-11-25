@@ -59,7 +59,7 @@ INSERT INTO `Productos` (`codigo`, `nombre`, `stock`, `stock_min`, `precio`) VAL
 -- Indices de la tabla `Productos`
 --
 ALTER TABLE `Productos`
-  ADD PRIMARY KEY (`CODIGO`);
+  ADD PRIMARY KEY (`codigo`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

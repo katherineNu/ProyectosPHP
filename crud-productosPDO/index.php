@@ -1,5 +1,6 @@
 <?php
 session_start();
+//basicamente aqui no toco nada 
 
 include_once 'app/dat/AccesoDatos.php';
 include_once 'app/funciones.php';
@@ -7,7 +8,9 @@ include_once 'app/acciones.php';
 
 
 // Div con contenido
-$contenido="";
+$contenido="";    // mensaje que se mostrará encima de la tabla
+
+// GET: los enlaces (iconos) y los botones Nuevo / Salir
 if ($_SERVER['REQUEST_METHOD'] == "GET" ){
     
     if ( isset($_GET['orden'])){
